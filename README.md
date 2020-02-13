@@ -4,6 +4,8 @@ ASCII Art Farts  is an [epic archive](http://www.asciiartfarts.com/index.html) o
 
 ## Install
 
+**NOTE:** If your system uses Python 3.5 and older, use the asciifarts3.5.py script instead.
+
 This example is for `irssi` - but it shouldn't be too different for other
 clients. The path `~/.irssi/` is totally arbitrary: copy the script wherever
 you want, as long as you have the correct permissions.
