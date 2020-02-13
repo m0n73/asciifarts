@@ -19,7 +19,7 @@ def get_random_ascii():
 
 if __name__ == "__main__":
     if int(sys.version[2]) < 6:
-        sys.exit("[!] You need at least Python 3.6 to pump.")
+        sys.exit("[ERROR] You need at least Python 3.6 to pump.")
     timestr = time.strftime("[%b %d %Y] %H:%M:%S")
     try:
         print(f"{get_random_ascii()}")
